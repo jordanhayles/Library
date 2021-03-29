@@ -1,0 +1,13 @@
+?php
+//Suspending students
+include "database.php";//database connection
+$id=$_GET['id'];
+ $sus="UPDATE student SET Active = 'no' WHERE id = '$id'";
+ $result=mysqli_query($dbh,$sus);
+echo '<script type="text/javascript">';
+echo 'alert ("User is suspended!")';
+echo '</script>';
+      $URL="Studentlist.php";
+echo "<script>location.href='$URL'</script>";      
+
+?>

@@ -1,0 +1,77 @@
+<style>
+body
+{
+   background-image: url('shelf2.jpg'); 
+    background-size: cover;
+}
+.webtop{
+            background-color:#D6EAF8 ;
+            width:100%;
+            height:40px;
+            color:black;
+        }
+ul{
+    margin:0%;
+    padding:0%;
+    list-style: none;
+      color:white;
+}
+ul li{
+    float:left;
+    width:160px;
+    height:40px;
+    background-color: black;
+    color:white;
+    opacity:.9;
+    line-height: :40px;
+    text-align: center;
+    font-size:14px ;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color:#D6EAF8; 
+    color: black;
+}
+ul li ul li{
+    display:none;
+}
+ul li:hover ul li{
+    display:block;
+}
+
+ .main{
+position:absolute;
+bottom:30%;
+right:12%;
+border-radius:10px;
+background-color:#fcfcfd;
+border-color: #d9dbdd;
+border-style:solid;
+border-width: thin;
+height: 350px;
+width: 950px;
+margin:3;
+padding:3;
+font-family: sans-serif;
+color:darkslategrey;
+            
+}
+ .error{
+            font-size:11px;
+        color:red;
+        }
+footer
+{
+    font-size:100%;
+    text-align:center;
+    background-color:#D6EAF8;
+    color:darkslategray;
+    width:100%;
+    
+}
+</style>
